@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container .home{
+    width: 400px;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.644);
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.home h1{
+    margin: 8px;
+    font-family:  brush script MT;
+    font-size: 30px;
+    color: aqua;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    margin-left: 20px;
+}
+.home h1 span{
+    color: deeppink;
+}
+.input-box{
+    display: flex;
+    align-items: center;    
+    width: 350px;
+    background-color: rgba(220, 220, 220, 0.377);
+    margin-left: 23px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid aqua;
+}
+.input-box input{
+    height: 35px;
+    width: 270px;
+    margin-left: 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+.input-box .btn{
+    background-color:tomato;
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 7px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.items{
+    margin-left:45px;
+    margin-bottom: 15px;
+}
+.items ul li{
+    list-style: none;
+    width: 310px;
+    height: 40px;
+    background-color: rgba(255, 20, 145, 0.068);
+    margin-top: 20px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 3px solid aqua;
+}
+ul li p{
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-left: 2px;
+    font-family: cursive;
+}
+ul li .close{
+    width: 30px;
+    font-size: 25px;
+    background-color: transparent;
+    padding-left: 5px;
+    border: none;
+    cursor: pointer;    
+}
+ul li .close img{
+    width: 20px;
+}
+li .edit{
+    width: 30px;
+    background-color: transparent;
+    margin-left: 20px;
+    padding-right: 0px;
+    border: none;
+    cursor: pointer;
+}
+li .edit img{
+    width: 20px;
+}
