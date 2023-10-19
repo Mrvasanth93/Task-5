@@ -4,7 +4,7 @@ let email = document.querySelector("#email");
 let password = document.querySelector("#pass");
 let c_pass = document.querySelector("#c_password");
 let error = document.querySelectorAll(".error")
-const link = "/login.html"
+const link = "login.html"
 function login() {
     validitation();
     let arr = [];
