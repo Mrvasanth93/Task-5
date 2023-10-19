@@ -1,5 +1,5 @@
 let form = document.querySelector("#form");
-let link = "./home.html"
+let link = "/login.html"
 let Username = document.querySelector("#name");
 let email = document.querySelector("#email");
 let password = document.querySelector("#password");
