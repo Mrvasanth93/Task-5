@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./login.css">
+    
+</head>
+<body>
+    <div class="container">
+       <div class="sign-up">
+            <div class="logo">
+            <img src="/assets/icon.png" alt="">
+            </div>
+            <h1>Welcome <span>Back</span> </h1>
+        <div class="google-sign-up">
+            <div class="google-logo">
+                <img src="/assets/google_icon.png" alt="">
+            </div>
+            <h5>Continue With Google</h5>
+        </div>
+           <div class="or">
+                <hr>
+                <p>Or Login With Email</p>
+                <hr>
+            </div>
+            <form id="form" class="inputs" action="">
+                <div>
+                    <input id="name" class="inp" placeholder="Enter Your Name" type="text"> <br>
+                    <div class="error"></div> <br>
+                </div>
+                <div>
+                    <input id="email" class="inp"  placeholder="Enter Email Addres" type="email"> <br>
+                    <div class="error"></div> <br>
+                </div>
+                <div>
+                    <input id="password" class="inp"  placeholder="Enter A Password" type="password"> <br>
+                <div class="error">
+                </div> <br>
+                </div>
+                <div class="tc">
+                    <div class="right">
+                        <a href="#">Forget Password</a>
+                    </div>
+                </div>
+            </form>
+            <button onclick="submit()" type="submit" id="login" class="signup">login</button>
+            <h5 class="login"> Don't have an account yet? &nbsp; <a href="/index.html">SignUp Here</a> </h5>
+            <script src="./login.js"></script>
+            
+       </div>
+    </div>
+</body>
+</html>
